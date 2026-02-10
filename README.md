@@ -83,7 +83,7 @@ Open to:
 ## 📜 License
 
 Content scripts and research notes: **MIT License**  
-Video content: **© 2026 Granger Lobo - All Rights Reserved**
+Video content: **© 2026 Granger Security - All Rights Reserved**
 
 ---
 
