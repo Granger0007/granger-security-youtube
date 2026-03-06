@@ -1,145 +1,190 @@
 <div align="center">
 
-# 🎥 Granger Security
-### YouTube Content Hub
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f2e,100:FF0000&height=180&section=header&text=Granger%20Security&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20Education%20%7C%20SOC%20Analyst%20%7C%20Threat%20Intelligence&descSize=16&descAlignY=58&descColor=FF0000" />
 
 [![YouTube](https://img.shields.io/badge/YouTube-Granger_Security-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@Granger-Security)
-[![Subscribers](https://img.shields.io/badge/Subscribers-199+-red?style=for-the-badge)](https://youtube.com/@Granger-Security)
-[![Videos](https://img.shields.io/badge/Videos-89+-red?style=for-the-badge)](https://youtube.com/@Granger-Security)
+[![Subscribers](https://img.shields.io/badge/Subscribers-199+-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@Granger-Security)
+[![Videos](https://img.shields.io/badge/Videos_Published-89-FF4500?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@Granger-Security)
 
-**Mission:** Document career transition from Fraud Prevention → Information Security while sharing practical cybersecurity knowledge
-
-[📺 Watch Channel](https://youtube.com/@Granger-Security) • [📁 Portfolio](https://github.com/Granger0007/Bhargav-Baranda-Portfolio) • [💼 LinkedIn](https://www.linkedin.com/in/bhargav-baranda)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-bhargav--baranda-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/bhargav-baranda)
+[![Portfolio](https://img.shields.io/badge/Security_Portfolio-Bhargav--Baranda-181717?style=flat-square&logo=github)](https://github.com/Granger0007/Bhargav-Baranda-Portfolio)
+[![ISC² CC](https://img.shields.io/badge/ISC²-Certified_in_Cybersecurity-00599C?style=flat-square)](https://www.isc2.org/certifications/cc)
 
 </div>
 
-## 📊 Channel Overview
+---
 
-**Created:** 2022  
-**Current Status:** 89 videos published, 199+ subscribers  
-**Content Focus:** Cybersecurity education + Career transition documentation
+## 📺 About This Channel
 
-## 🎬 Content Evolution
+**Granger Security** is a cybersecurity education channel built by an analyst in active career transition — documenting the real process of building SOC capabilities from scratch.
 
-### Phase 1: Security Fundamentals (2022-2023) ✅
+No polished course content. No scripted perfection. Real lab work, real mistakes, real detections.
 
-**89 educational videos** covering core security concepts:
+**Who this is for:**
+- Aspiring SOC analysts breaking into the field
+- Security+ candidates who want concepts tied to real SOC scenarios
+- Career changers who need proof that the transition is possible
+- Anyone building a home lab and hitting the same ARM64 walls I hit
 
-**Top Performing Content:**
-- "What is a gdb?" - 818 views
-- "Define python language?" - 460 views  
-- "What is disassembly with gdb?" - 458 views
+**89 videos published. Still going.**
 
-**Content Categories:**
-- Technical Shorts (Python, GDB, Assembly, Debugging)
-- Security Fundamentals (Social Engineering, Password Attacks, Cloud Security)
-- Vulnerability Analysis
-
-### Phase 2: Career Transition (2025-2026) 🔥 In Progress
-
-**Long-form documentary content** documenting professional transition:
-
-**Planned Content:**
-- Career journey: Fraud Prevention → MSc → SOC Analyst
-- ARM64 home lab build tutorials
-- MITRE ATT&CK incident analysis walkthroughs
-- UK cybersecurity job market insights
-
-## 🛠️ Production Stack
-
-**Video Editing:** iMovie (macOS native - ARM64 optimized)  
-**Voice Generation:** ElevenLabs AI  
-**Screen Recording:** macOS Screen Recorder + QuickTime  
-**Graphics:** Canva Pro  
-**Lab Recording:** Terminal sessions + iMovie overlays
-
-**Why iMovie?**
-- Native ARM64 optimization (smooth on Apple Silicon)
-- Fast export times on M-series chips
-- Zero learning curve for quick turnarounds
-
-## 🎯 Target Audience
-
-**Primary Audiences:**
-- Career transitioners entering cybersecurity
-- Aspiring SOC analysts seeking hands-on validation
-- Cybersecurity students building foundational knowledge
-- Recruiters evaluating technical capabilities
-
-**Unique Value:** Transparent documentation of job hunting + real lab demonstrations
+---
 
 ## 📁 Repository Structure
+
 ```
 granger-security-youtube/
-├── scripts/                    # Video scripts & outlines
-│   ├── phase-1-archive/       # Original 89 video references
-│   └── phase-2-career/        # New documentary content
-├── assets/                     # Production resources
-│   ├── channel-branding/      # Logos, thumbnails
-│   └── stock-footage/         # B-roll references
-├── research/                   # Technical documentation
-│   ├── soc-analyst-roadmap/
-│   └── uk-job-market/
-└── analytics/                  # Performance tracking
+├── 📁 cve-analysis/               ← Per-CVE research, writeups, MITRE mapping
+│   └── [CVE-YYYY-XXXXX]/
+│       ├── research-notes.md     ← Raw intelligence gathered
+│       ├── mitre-mapping.md      ← ATT&CK tactic/technique/sub-technique
+│       ├── video-script.md       ← Full narration script
+│       └── description.md        ← YouTube SEO description + timestamps
+├── 📁 threat-intel-briefs/        ← Weekly threat landscape summaries
+│   └── [YYYY-MM-DD]/
+│       ├── brief.md              ← Full written brief
+│       └── sources.md            ← Verified sources with dates
+├── 📁 soc-lab-walkthroughs/       ← Lab investigation companion writeups
+│   └── [topic]/
+│       ├── walkthrough.md        ← Step-by-step with screenshots
+│       └── detection-rules/      ← Sigma/SPL/KQL produced in the session
+├── 📁 security-plus/              ← Exam concept breakdowns tied to SOC reality
+│   └── [domain]/
+│       ├── concepts.md           ← Explained with SOC scenario anchors
+│       └── practice-questions.md ← With full answer breakdowns
+├── 📁 templates/
+│   ├── video-script-template.md  ← Standard script structure
+│   ├── cve-research-template.md  ← CVE analysis framework
+│   └── youtube-description.md    ← SEO description template
+└── 📁 assets/
+    └── thumbnails/               ← Thumbnail concepts and text
 ```
 
-## 📈 Growth Metrics
+---
 
-| Metric | Current | 6-Month Target | 12-Month Target |
-|--------|---------|----------------|-----------------|
-| Subscribers | 199 | 500 | 1,500 |
-| Videos | 89 | 100+ | 125+ |
-| Avg Views/Video | 50-400 | 200-600 | 500-1,000 |
+## 🎬 Content Pillars
 
-**Milestones:**
-- ✅ 100 Subscribers (Achieved 2023)
-- 🎯 500 Subscribers (Target Q2 2026)
-- ⏳ 1,000 Subscribers (Target Q4 2026)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## 💼 Professional Impact
+### 🔴 CVE Analysis
+Breaking vulnerabilities — explained for analysts, not just researchers.
 
-**For SOC Analyst Applications:**
+Every CVE video includes:
+- Affected versions and patch status
+- MITRE ATT&CK technique mapping
+- Detection opportunity (what does exploitation look like in logs?)
+- Splunk/Sigma detection rule where applicable
+- Companion writeup linked in description
 
-This channel demonstrates:
-- ✅ Technical communication skills (89 videos proving ability to explain concepts)
-- ✅ Continuous learning (3+ years consistent content)
-- ✅ Documentation skills (organized repository structure)
-- ✅ Self-direction (building personal brand while job hunting)
+</td>
+<td width="50%" valign="top">
 
-**Resume Entry:**
+### 🟡 Threat Intel Briefs
+Weekly cybersecurity news — framed for the SOC, not the headlines.
+
+Format: What happened → Who's behind it → What TTPs were used → What should a SOC analyst watch for → Detection opportunity.
+
+Verified sources only. Every item dated and cited.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔵 SOC Lab Walkthroughs
+Live investigations from the ARM64 home lab.
+
+Real tool output. Real Splunk queries built from scratch. Real Suricata alerts. Real Wazuh detections. If something breaks on camera, it stays in — that's how learning actually works.
+
+Every walkthrough links to a GitHub writeup with the detection rules produced.
+
+</td>
+<td width="50%" valign="top">
+
+### ⚪ Security+ Explained
+SY0-701 concepts tied to SOC reality — not just definitions.
+
+Format: "Here's what the exam says → here's what it looks like in a real alert → here's how you'd handle it in a SOC."
+
+Designed for candidates who want to understand it, not just pass it.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📋 Video Production Workflow
+
 ```
-YouTube Content Creator - Granger Security (2022-Present)
-- Created 89+ educational cybersecurity videos reaching 199+ subscribers
-- Demonstrates technical communication skills critical for incident reporting
-- Repository: github.com/Granger0007/granger-security-youtube
+1. RESEARCH       → Verify CVE/threat intel from primary sources (NCSC, CISA, NVD, vendor)
+2. MITRE MAPPING  → Tactic → Technique → Sub-technique → Observed Procedure
+3. SCRIPT         → Hook → Problem → Investigation → Detection → Lesson
+4. RECORD         → Screen capture of actual lab work where possible
+5. EDIT           → iMovie — clean cuts, chapters, timestamps
+6. DESCRIPTION    → SEO-optimised title + keyword-rich description + timestamps
+7. PUBLISH        → YouTube + community post + LinkedIn writeup
+8. PORTFOLIO      → GitHub companion writeup committed same day
 ```
 
-## 🤝 Collaboration
+---
 
-**Open to:**
-- Guest interviews with SOC analysts
-- Lab challenge collaborations
-- Topic requests from the community
+## 🔗 Content × Portfolio Integration
 
-## 🔗 Connected Projects
+Every significant video maps to a GitHub writeup in the [Security Operations Portfolio](https://github.com/Granger0007/Bhargav-Baranda-Portfolio).
 
-| Project | Description | Link |
-|---------|-------------|------|
-| **Security Portfolio** | 30 incident analyses, detection rules, lab docs | [View Portfolio](https://github.com/Granger0007/Bhargav-Baranda-Portfolio) |
-| **LinkedIn** | Professional credentials & networking | [Connect](https://www.linkedin.com/in/bhargav-baranda) |
+| Video Type | GitHub Output |
+|---|---|
+| CVE Analysis | `/threat-intel/campaign-analysis/[CVE]/` |
+| Lab Walkthrough | `/incidents/[case-XXX]/` + detection rules |
+| Detection Rule Build | `/detection-rules/sigma/` + `/splunk-spl/` + `/sentinel-kql/` |
+| Threat Intel Brief | `/threat-intel/apt-profiles/` or `/campaign-analysis/` |
 
-## 📧 Contact
+**The principle:** YouTube builds the audience. GitHub builds the proof. LinkedIn builds the network. Every piece of content feeds all three.
 
-**Email:** bbaranda055@gmail.com  
-**LinkedIn:** [linkedin.com/in/bhargav-baranda](https://www.linkedin.com/in/bhargav-baranda)  
-**YouTube:** [@Granger-Security](https://youtube.com/@Granger-Security)
+---
+
+## 📌 Featured CVE Analysis
+
+| CVE | Title | CVSS | Video |
+|---|---|:---:|---|
+| CVE-2024-20353 | Cisco Catalyst SD-WAN Auth Bypass | 8.6 | [▶ Watch](https://youtube.com/@Granger-Security) |
+| *More added weekly* | — | — | — |
+
+---
+
+## 🎓 About the Creator
+
+**Bhargav Baranda** — cybersecurity professional transitioning from fraud prevention and behavioural analysis into security operations.
+
+- 📚 MSc Information Security — Royal Holloway, University of London
+- 🏅 ISC² Certified in Cybersecurity (CC)
+- 🔄 CompTIA Security+ SY0-701 — active exam preparation
+- 🔬 Home lab: ARM64 stack running Splunk, ELK, Suricata, Wazuh
+- 🎯 Building toward SOC Analyst roles in the UK market
+
+The channel exists because I couldn't find content that showed the *actual process* of building these skills — not the polished end result, but the real work.
+
+---
+
+## 📬 Get In Touch
+
+| Channel | Link |
+|---|---|
+| 📺 YouTube | [@Granger-Security](https://youtube.com/@Granger-Security) |
+| 💼 LinkedIn | [linkedin.com/in/bhargav-baranda](https://www.linkedin.com/in/bhargav-baranda) |
+| 💻 GitHub | [github.com/Granger0007](https://github.com/Granger0007) |
+| 📧 Email | bbaranda055@gmail.com |
 
 ---
 
 <div align="center">
 
-**MIT License** • Content scripts and documentation freely available
+*All scripts, research notes, and detection rules in this repository are freely available under the MIT License.*
+*Subscribe. Learn. Build.*
 
-*Last Updated: February 2026*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0000,50:1a1f2e,100:0d1117&height=100&section=footer"/>
 
 </div>
