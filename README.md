@@ -9,6 +9,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-bhargav--baranda-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/bhargav-baranda)
 [![Portfolio](https://img.shields.io/badge/Security_Portfolio-Bhargav--Baranda-181717?style=flat-square&logo=github)](https://github.com/Granger0007/Bhargav-Baranda-Portfolio)
 [![ISC² CC](https://img.shields.io/badge/ISC²-Certified_in_Cybersecurity-00599C?style=flat-square)](https://www.isc2.org/certifications/cc)
+[![Royal Holloway](https://img.shields.io/badge/Royal_Holloway-ACE--CSR_(NCSC%2FGCHQ)-003087?style=flat-square)](https://www.royalholloway.ac.uk)
 
 </div>
 
@@ -16,7 +17,7 @@
 
 ## 📺 About This Channel
 
-**Granger Security** is a cybersecurity education channel built by an analyst in active career transition — documenting the real process of building SOC capabilities from scratch.
+**Granger Security** is a cybersecurity education channel built by a security analyst — documenting the real process of building SOC capabilities from scratch, in public.
 
 No polished course content. No scripted perfection. Real lab work, real mistakes, real detections.
 
@@ -157,15 +158,17 @@ Every significant video maps to a GitHub writeup in the [Security Operations Por
 
 ## 🎓 About the Creator
 
-**Bhargav Baranda** — cybersecurity professional transitioning from fraud prevention and behavioural analysis into security operations.
+**Bhargav Baranda** — MSc Information Security graduate and security analyst building toward UK SOC analyst roles.
 
-- 📚 MSc Information Security — Royal Holloway, University of London
+- 📚 MSc Information Security — Royal Holloway, University of London (2025)
+  *Formally recognised as an Academic Centre of Excellence in Cyber Security Research by NCSC and GCHQ*
 - 🏅 ISC² Certified in Cybersecurity (CC)
-- 🔄 CompTIA Security+ SY0-701 — active exam preparation
-- 🔬 Home lab: ARM64 stack running Splunk, ELK, Suricata, Wazuh
-- 🎯 Building toward SOC Analyst roles in the UK market
+- 🔄 CompTIA Security+ SY0-701 — in progress, expected Q2 2026
+- 🔬 Home lab: Apple Silicon ARM64 · UTM · Kali Linux · Splunk · ELK · Suricata · Wazuh
+- 📋 9 SOC labs documented across network analysis, threat detection, and packet forensics
+- 🎯 Actively seeking SOC Analyst roles across the UK market
 
-The channel exists because I couldn't find content that showed the *actual process* of building these skills — not the polished end result, but the real work.
+The channel exists because I couldn't find content that showed the *actual process* of building these skills — not the polished end result, but the real work. The labs I publish here are the same labs I'm using to build my portfolio and land a job.
 
 ---
 
