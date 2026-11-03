@@ -13,7 +13,7 @@
 
 </div>
 
----
+
 
 ## 📺 About This Channel
 
@@ -29,7 +29,7 @@ No polished course content. No scripted perfection. Real lab work, real short-fo
 
 **230+ videos and Shorts published across the channel's history, from 2022 to today.**
 
----
+
 
 ## 🎬 Current Content Strategy — AI Security Shorts
 
@@ -49,7 +49,7 @@ The channel's active focus right now is a daily short-form series on the **[Lear
 
 This replaced an earlier, more elaborate CVE-research format (see below) that ran for a few weeks and has since paused in favour of this simpler, sustainable daily rhythm.
 
----
+
 
 ## 📌 Featured CVE Analysis
 
@@ -61,7 +61,7 @@ A short earlier run of longer-form CVE breakdowns (Feb 2026) — currently pause
 | CVE-2020-7796 | Zimbra SSRF — Still Actively Exploited in 2026 | Critical | [▶ Watch](https://youtube.com/@Granger-Security) |
 | CVE-2026-2441 | Chrome Zero-Day — CSS Font Engine RCE | High | [▶ Watch](https://youtube.com/@Granger-Security) |
 
----
+
 
 ## 🔗 Content × Portfolio Integration
 
@@ -69,7 +69,7 @@ The principle stays the same even as format evolves: **YouTube builds the audien
 
 Lab walkthrough videos link to their companion writeup in the [Security Operations Portfolio](https://github.com/Granger0007/Bhargav-Baranda-Portfolio), where the actual detection rules and MITRE mapping live.
 
----
+
 
 ## 🎓 About the Creator
 
@@ -85,7 +85,7 @@ Lab walkthrough videos link to their companion writeup in the [Security Operatio
 
 The channel started in 2022 as a first attempt at security education content, paused, and restarted in 2026 alongside an active job search and Security+ study — the daily AI Security Shorts are the same learning process I'm using to build my own knowledge, shared as I go.
 
----
+
 
 ## 📬 Get In Touch
 
@@ -98,7 +98,7 @@ The channel started in 2022 as a first attempt at security education content, pa
 | 🛡️ OZONE Shield | [ozone-shield.bbaranda055.workers.dev](https://ozone-shield.bbaranda055.workers.dev) |
 | 📧 Email | bbaranda055@gmail.com |
 
----
+
 
 <div align="center">
 
