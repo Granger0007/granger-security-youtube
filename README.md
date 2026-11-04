@@ -96,7 +96,7 @@ The channel started in 2022 as a first attempt at security education content, pa
 | 💼 LinkedIn | [linkedin.com/in/bhargav-baranda](https://www.linkedin.com/in/bhargav-baranda) |
 | 💻 GitHub | [github.com/Granger0007](https://github.com/Granger0007) |
 | 🛡️ OZONE Shield | [ozone-shield.bbaranda055.workers.dev](https://ozone-shield.bbaranda055.workers.dev) |
-| 📧 Email | bbaranda055@gmail.com |
+
 
 
 
